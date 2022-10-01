@@ -30,7 +30,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
 
   letter-spacing: 0.03em;
 }
@@ -72,7 +71,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -89,7 +87,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -129,7 +126,6 @@ body {
 .lead-subtitle {
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
@@ -158,30 +154,23 @@ body {
 
   color: var(--brand-color);
 }
-.subtitle-card {
+.subtitle-card,
+.lead-card {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
+}
+.subtitle-card {
   color: var(--brand-color);
 }
 .lead-card {
-  font-size: 16px;
-  line-height: 1.18;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--main-color);
 }
 /* футер */
 .basement {
-  background: #2f303a;
+  background: var(--bgn-hero);
 }
 .contacts-address,
 .contacts-mail,
@@ -189,7 +178,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -214,18 +203,13 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
 
   color: var(--brand-color);
 }
 .filter-heading {
   font-size: 16px;
-  line-height: 1.87;
-  /* identical to box height, or 188% */
-
+  line-height: 1.88;
   letter-spacing: 0.03em;
-
   color: var(--main-color);
 }
