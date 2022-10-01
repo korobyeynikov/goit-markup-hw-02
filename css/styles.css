@@ -1,0 +1,231 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #757575;
+  background: #ffffff;
+}
+:root {
+  --bgn-header: ;
+  --bgn-hero: #2f303a;
+  --bgn-section: #f5f4fa;
+  --bgn-port: #eeeeee;
+  --main-color: #757575;
+  --brand-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #ffffff;
+  --logo-color: #000000;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* хедер */
+.logo,
+.logo-basement {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+.logo:hover,
+.logo:focus,
+.logo-basement:hover,
+.logo-basement:focus {
+  color: var(--accent-color);
+}
+.logo-board {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--logo-color);
+}
+.logo-basement {
+  color: var(--secondary-color);
+}
+
+.header-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--brand-color);
+}
+.current,
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+/* герой */
+.hero {
+  background: var(--bgn-hero);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--secondary-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+/* радио кнопки */
+.button-exception {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background-color: var(--bgn-section);
+  color: var(--brand-color);
+}
+.button-exception:hover,
+.button-exception:focus {
+  background: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+/* особливості */
+.title-section {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.subtitle {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--brand-color);
+}
+.lead-subtitle {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+/* чим займаємось */
+.section-box {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--brand-color);
+}
+/* наша команда */
+.subject {
+  background: #f5f4fa;
+}
+.section-subject {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--brand-color);
+}
+.subtitle-card {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--brand-color);
+}
+.lead-card {
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+/* футер */
+.basement {
+  background: #2f303a;
+}
+.contacts-address,
+.contacts-mail,
+.contacts-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+.contacts-address {
+  color: var(--secondary-color);
+}
+.contacts-mail,
+.contacts-tel {
+  color: var(--contacts-color);
+}
+.contacts-address:hover,
+.contacts-mail:hover,
+.contacts-tel:hover,
+.contacts-address:focus,
+.contacts-mail:focus,
+.contacts-tel:focus {
+  color: var(--accent-color);
+}
+/* портфоліо */
+.title-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--brand-color);
+}
+.filter-heading {
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
