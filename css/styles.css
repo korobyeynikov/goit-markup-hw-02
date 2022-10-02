@@ -90,9 +90,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
+  cursor: pointer;
   letter-spacing: 0.06em;
 
   background-color: var(--accent-color);
@@ -100,7 +99,6 @@ body {
 }
 .button:hover,
 .button:focus {
-  cursor: pointer;
   background-color: var(--bgn-btnaction);
 }
 /* радио кнопки */
@@ -137,7 +135,6 @@ body {
   margin: -1px;
 }
 .subtitle {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -180,8 +177,7 @@ body {
 
   color: var(--brand-color);
 }
-.subtitle-card,
-.lead-card {
+.subtitle-card {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -192,6 +188,11 @@ body {
   color: var(--brand-color);
 }
 .lead-card {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
   color: var(--main-color);
 }
 /* футер */
@@ -202,7 +203,6 @@ body {
 .contacts-mail,
 .contacts-tel {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
