@@ -1,11 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #757575;
-  background: #ffffff;
 }
 :root {
-  --bgn-header: ;
+  --bgn-btnaction: #188ce8;
   --bgn-hero: #2f303a;
   --bgn-section: #f5f4fa;
   --bgn-port: #eeeeee;
@@ -49,18 +46,29 @@ body {
   color: var(--secondary-color);
 }
 
-.header-link {
-  font-family: 'Roboto';
+.header-item,
+.header-mail,
+.header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+}
+.header-item {
   color: var(--brand-color);
 }
+.header-mail,
+.header-tel {
+  color: var(--main-color);
+}
+
 .current,
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
   color: var(--accent-color);
 }
 /* герой */
@@ -79,12 +87,25 @@ body {
   color: var(--secondary-color);
 }
 .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
   background-color: var(--accent-color);
   color: var(--secondary-color);
 }
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  background-color: var(--bgn-btnaction);
+}
 /* радио кнопки */
 .button-exception {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -97,6 +118,7 @@ body {
 }
 .button-exception:hover,
 .button-exception:focus {
+  cursor: pointer;
   background: var(--accent-color);
   color: var(--secondary-color);
 }
@@ -145,6 +167,9 @@ body {
 /* наша команда */
 .subject {
   background: #f5f4fa;
+}
+.team-card {
+  background: var(--secondary-color);
 }
 .section-subject {
   font-weight: 700;
